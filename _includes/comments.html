@@ -1,5 +1,4 @@
 <section class="post-comments">
-
   {% if site.comment.disqus %}
     <div id="disqus_thread"></div>
     <script>
@@ -22,7 +21,6 @@
     
   {% elsif site.comment.duoshuo %}
     <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}"></div>
-
     <script type="text/javascript">
         var duoshuoQuery = {short_name:"{{ site.comment.duoshuo }}"};
         (function() {

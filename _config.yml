@@ -1,70 +1,49 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
-# 头像里面的标题
-avatarTitle: leopardpan
-# 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+title: Vno Jekyll
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
+creator: <a href="http://onev.cat">@onevcat</a>
 
-# Comment
-comment:
-    # disqus: leopard
-    duoshuo: leopard 
-
-# Social
-social:
-    weibo: 5366874726 
-    github: leopardpan
-    # twitter: 
-    mail: leopardpan@icloud.com
-
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-84134159-3   
-    host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
+url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
+
 # Format
 highlighter: rouge
 
-textColor: #FF0000
-
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
+cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: Blog
+    description: Visit blog
 
-# Navigation buttons in the front page.s
+# Navigation buttons in the front page.
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
-    
+    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
+gems: [jekyll-paginate]
+paginate: 10
 paginate_path: "page/:num/"
 
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: onevcat
+    github: onevcat
+    twitter: onevcat
+    gplus: 107108267983477358170
+    mail: onev@onevcat.com
 
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
